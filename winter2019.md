@@ -1,7 +1,5 @@
 # Winter Holidays 2019
 
-### --
-
 ## The Start
 
 After a fruitful first semester at Rutgers University, New Jersey the mood has been set for holidays and am waiting for an impending trip to Home, India on Dec 27. Since, there are few days before my trip to India, me with my roommates have decided to go to New York city. On Dec 24 right before Christmas, we have visited Vessel - an architectural marvel, Eat the 1$ pizza on the streets of Manhattan, Bryant Park - a park in between a busy city which has to be visited at-least for it's ice skating ground, Empire State - tallest building in NY, Rockefeller Center - second tallest building in NY, and the most awaited Times Square. Although NY city is always happening and colorful it has been amplified by the festivities of Christmas.
