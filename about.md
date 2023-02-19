@@ -18,6 +18,8 @@ permalink: /about/
   gtag('config', '{{ site.google_analytics }}');
 </script>
 
+![Profile](/images/Profile.jpg){:class="img-responsive"}
+
 
 I am currently a PhD student at University of Michigan, Ann Arbor. I am fortunate to be advised by Thatchaphol Saranurak, Seth Pettie. I gratuated with Masters from Rutgers University, New Brunswick where I was advised by Sepehr Assadi. I completed my undergrad from Indian Institute of Technology, Madras where I was advised by Pandu Rangan Chandrasekaran. I am grateful to all my teachers because of whom I am in this position today.
 
