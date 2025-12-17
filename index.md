@@ -21,9 +21,9 @@ permalink: /
 ![Profile](/images/Profile.jpg){:width="35%",:height="35%"}
 
 
-I am currently a PhD student at University of Michigan, Ann Arbor. I am fortunate to be advised by Thatchaphol Saranurak, Seth Pettie. I gratuated with Masters from Rutgers University, New Brunswick where I was advised by Sepehr Assadi. I completed my undergrad from Indian Institute of Technology, Madras where I was advised by Pandu Rangan Chandrasekaran. I am grateful to all my teachers because of whom I am in this position today.
+I am currently a PhD student at University of Michigan, Ann Arbor. I am fortunate to be advised by Thatchaphol Saranurak. I gratuated with Masters from Rutgers University, New Brunswick where I was advised by Sepehr Assadi. I completed my undergrad from Indian Institute of Technology, Madras where I was advised by Pandu Rangan Chandrasekaran. I am grateful to all my teachers because of whom I am in this position today.
 
-My research interests are Graph Algorithms and Sublinear Algorithms.
+My research interests are Graph Algorithms mainly Cut and Connectivity related problems.
 
 <!-- Contact: nalamsai at umich dot edu -->
 <!-- --- -->
