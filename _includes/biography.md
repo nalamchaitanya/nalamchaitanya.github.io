@@ -1,0 +1,3 @@
+I am currently a PhD student at the [University of Michigan, Ann Arbor](https://cse.engin.umich.edu/). I am fortunate to be advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/). I graduated with a master's degree from [Rutgers University, New Brunswick](https://www.cs.rutgers.edu/), where I was advised by [Sepehr Assadi](https://sepehr.assadi.info/). I completed my undergraduate degree at the [Indian Institute of Technology, Madras](https://www.cse.iitm.ac.in/), where I was advised by [Pandu Rangan Chandrasekaran](https://scholar.google.com/citations?user=begDaeQAAAAJ&hl=en). I am grateful to all my teachers because of whom I am in this position today.
+
+My research interests are graph algorithms, mainly cut and connectivity related problems.

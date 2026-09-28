@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Chaitanya Nalam's website
 
-You can use the [editor on GitHub](https://github.com/nvsskchaitanya/nvsskchaitanya.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A Jekyll academic website using the AcademicPages / Minimal Mistakes theme from
+[Siyue Liu's website](https://siyueliu112.github.io). The theme files are stored
+locally; see [THEME.md](THEME.md) for source and license details.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Edit content
 
-### Markdown
+- `_config.yml`: name, profile photo, contact links, and site settings.
+- `_includes/biography.md`: biography shared by the home and About pages.
+- `_data/publications.yml`: publications shared by the home and Publications pages.
+- `_data/teaching.yml`: teaching assistance courses and semesters on the home page.
+- `_data/navigation.yml`: links across the top of the site.
+- `images/Profile.jpg`: existing profile photo.
+- `_sass/_custom.scss`: small site-specific style adjustments.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Email is kept in `_config.yml` as `author.email_encoded` (Base64) with a readable
+`author.email_display` fallback. The address becomes a clickable email link only
+when a visitor opens the Email disclosure. This deters basic harvesting, but
+does not make a public address scrape-proof.
 
-```markdown
-Syntax highlighted code block
+The existing `/about/` and `/publications/` URLs remain available. Original travel
+writing and legacy Jemdoc source files are retained.
 
-# Header 1
-## Header 2
-### Header 3
+## Preview locally
 
-- Bulleted
-- List
+With Ruby and Bundler installed:
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+bundle config set --local path vendor/bundle
+bundle install
+bundle exec jekyll serve --host 127.0.0.1
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Open <http://127.0.0.1:4000>. Restart the server after changing `_config.yml`.
 
-### Jekyll Themes
+To check the production build:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nvsskchaitanya/nvsskchaitanya.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```sh
+JEKYLL_ENV=production bundle exec jekyll build
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Analytics uses the existing property and loads only in production, preserving
+the site's Do Not Track setting. No remote theme or unsupported custom plugin
+is required for GitHub Pages.

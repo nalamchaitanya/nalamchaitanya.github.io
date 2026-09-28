@@ -1,0 +1,8 @@
+<ol class="publication-list">
+  {% for publication in site.data.publications %}
+  <li>
+    <a href="{{ publication.url | escape }}">{{ publication.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a><br>
+    {{ publication.venue | escape }}{% if publication.video %} · <a href="{{ publication.video | escape }}" aria-label="Video: {{ publication.title | markdownify | strip_html | strip | escape }}">Video</a>{% endif %}
+  </li>
+  {% endfor %}
+</ol>

@@ -1,0 +1,8 @@
+<ul class="teaching-list">
+  {% for teaching in site.data.teaching %}
+  <li>
+    <strong>{% if teaching.url %}<a href="{{ teaching.url | escape }}">{% endif %}{{ teaching.course | escape }} — {{ teaching.title | escape }}{% if teaching.url %}</a>{% endif %}</strong><br>
+    {{ teaching.terms | escape }}
+  </li>
+  {% endfor %}
+</ul>

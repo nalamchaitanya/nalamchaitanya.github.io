@@ -1,0 +1,96 @@
+/* Keep the upstream AcademicPages appearance, with small local refinements. */
+.author__avatar img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.publication-list,
+.teaching-list {
+  padding-left: 1.35em;
+
+  li {
+    margin-bottom: 1.25em;
+    padding-left: 0.2em;
+  }
+}
+
+.page__content .section-title {
+  margin-top: 1.6em;
+  padding-bottom: 0;
+  border: 0;
+  font-size: $type-size-3;
+}
+
+.page__content,
+.author__content {
+  overflow-wrap: break-word;
+}
+
+[id] {
+  scroll-margin-top: $masthead-height + 20px;
+}
+
+/* Keep both the sticky and fixed profile below the masthead. */
+@include breakpoint($large) {
+  .sidebar.sticky {
+    top: calc(#{$masthead-height} + 2em);
+  }
+}
+
+/* Align the profile with the article, below the fixed masthead. */
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .sidebar {
+    padding-top: 0;
+    height: calc(100vh - #{$masthead-height} - 2em);
+  }
+}
+
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.5em 1em;
+  background: #fff;
+
+  &:focus {
+    top: 0.5rem;
+  }
+}
+
+.no-js .author__urls {
+  display: block;
+  position: static;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+.author__urls li {
+  white-space: normal;
+}
+
+.navicon {
+  display: block;
+}
+
+.email-contact {
+  summary {
+    cursor: pointer;
+    padding: 2px 5px 2px 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__address {
+    display: block;
+    padding-top: 0.25em;
+    overflow-wrap: anywhere;
+  }
+}

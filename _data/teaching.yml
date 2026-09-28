@@ -1,0 +1,12 @@
+- course: "CSE 586"
+  title: "Graduate Algorithms"
+  terms: "Winter 2026"
+
+- course: "EECS 586"
+  title: "Graduate Algorithms"
+  terms: "Winter 2023"
+
+- course: "EECS 376"
+  title: "Undergraduate Algorithms (Foundations of Computer Science)"
+  terms: "Winter 2024, Fall 2024, Fall 2025"
+  url: "https://eecs376.org/"
