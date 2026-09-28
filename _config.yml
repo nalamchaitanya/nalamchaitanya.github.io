@@ -14,9 +14,8 @@ author:
   avatar: "Profile.jpg"
   employer: "University of Michigan"
   employer_url: "https://cse.engin.umich.edu/"
-  # Obfuscation deters basic harvesting; it is not encryption.
-  email_encoded: "bmFsYW1zYWlAdW1pY2guZWR1"
-  email_display: "nalamsai [at] umich [dot] edu"
+  # Plain text revealed when the Email control is opened.
+  email_display: "nalamchaitanya at gmail"
   github: "nalamchaitanya"
   linkedin: "nalamchaitanya"
 

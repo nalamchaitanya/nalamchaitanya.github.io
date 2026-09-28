@@ -35,6 +35,11 @@
   .sidebar.sticky {
     top: calc(#{$masthead-height} + 2em);
   }
+
+  /* Match the gap above the name; override the theme's heading margin reset. */
+  .sidebar .author__name {
+    margin-bottom: 10px;
+  }
 }
 
 /* Align the profile with the article, below the fixed masthead. */

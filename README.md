@@ -14,10 +14,9 @@ locally; see [THEME.md](THEME.md) for source and license details.
 - `images/Profile.jpg`: existing profile photo.
 - `_sass/_custom.scss`: small site-specific style adjustments.
 
-Email is kept in `_config.yml` as `author.email_encoded` (Base64) with a readable
-`author.email_display` fallback. The address becomes a clickable email link only
-when a visitor opens the Email disclosure. This deters basic harvesting, but
-does not make a public address scrape-proof.
+Clicking Email reveals the plain text from `author.email_display` in
+`_config.yml`. This uses a native disclosure control and works without
+JavaScript; it does not open an email application.
 
 The existing `/about/` and `/publications/` URLs remain available. Original travel
 writing and legacy Jemdoc source files are retained.
